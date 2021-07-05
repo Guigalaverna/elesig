@@ -1,0 +1,42 @@
+.container {
+  button {
+    display: flex;
+    align-items: center;
+    
+    padding: 15px 30px;
+    border: 0;
+
+    gap: 10px;
+
+    background: #fff;
+    border-radius: 8px;
+
+    box-shadow: 0 0 12px rgba(0, 0, 0,0.4);
+  }
+
+  div:first-child {
+    display: flex;
+    align-items: center;
+  }
+
+  img {
+    width: 24px;
+    height: 24px;
+  }
+
+  span {
+    text-transform: uppercase;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+  }
+
+  transition: all 0.2s;
+}
+
+.container:hover {
+  transform: translateY(-7px);
+  border: 2px solid rgb(209, 138, 247);
+  border-radius: 8px;
+}

@@ -1,0 +1,43 @@
+.container {
+  position: relative;
+  display: flex;
+
+  align-items: center;
+
+  max-width: 14.375rem;
+
+  span:first-child {
+    position: absolute;
+
+    top: -25px;
+    left: -25px;
+
+    background: var(--primary);
+    border-radius: 8px;
+
+    width: 3.125rem;
+    height: 3.125rem;
+    // z-index: -1;
+  }
+
+  span:last-child {
+    position: absolute;
+
+    bottom: -25px;
+    right: -25px;
+
+    background: var(--primary);
+    border-radius: 8px;
+
+    width: 3.125rem;
+    height: 3.125rem;
+    // z-index: -1;
+  }
+
+  img {
+    border-radius: 8px;
+
+    width: 14.375rem;
+    height: 14.375rem;
+  }
+}

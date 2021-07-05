@@ -1,0 +1,25 @@
+.container {
+  background: var(--black);
+  border: 0;
+  color: white;
+  width: min-content;
+
+  padding: 18px 70px;
+  border-radius: 8px;
+
+  transition: background 0.2s;
+  p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+
+  }
+
+  &:hover {
+    background: var(--white);
+    
+    p {
+      color: black;
+    }
+  }
+}
